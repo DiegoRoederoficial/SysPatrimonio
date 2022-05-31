@@ -47,6 +47,7 @@ namespace SysPatrimonio.Controllers
         // GET: Locals/Create
         public IActionResult Create()
         {
+ 
             return View();
         }
 
