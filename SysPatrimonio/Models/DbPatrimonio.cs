@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SysPatrimonio.Models
 {
-    [Table("patrimonio", Schema = "public")]
+    [Table("patrimonio", Schema = "public")]        
     public class DbPatrimonio
     {
         [Key]
@@ -17,7 +17,7 @@ namespace SysPatrimonio.Models
         public int iddepartamento { get; set; }
         public string? marcamodelo { get; set; }
         public DateTime dataaquisicao { get; set; }
-        public DateTime databaixa { get; set; }
+        public DateOnly databaixa { get; set; }
         public string? numnf { get; set; }
         public string? numserie { get; set; }
         public string? situacao { get; set; }
